@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#movie-results {
+    margin-top: 20px;
+}
+
+.movie-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
