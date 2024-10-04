@@ -1,0 +1,14 @@
+# The language your project is using
+language = "nodejs"
+
+# The command that runs your program
+run = "node server.js"
+
+# Optional: The entry point for your application
+entrypoint = "server.js"
+
+# Optional: Specify a custom shell (like bash)
+shell = "/bin/bash"
+
+# Optional: A custom message that shows up when the project is loaded
+on_start = "echo Welcome to the Movie Watcher application!"
