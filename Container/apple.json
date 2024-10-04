@@ -1,0 +1,49 @@
+{
+  "bugTracker": {
+    "project": "Movie Watcher",
+    "version": "1.0.0",
+    "description": "Configuration for tracking bugs in the Movie Watcher application.",
+    "categories": [
+      "UI Bug",
+      "Performance Issue",
+      "Functionality Bug",
+      "Security Vulnerability"
+    ],
+    "severityLevels": [
+      {
+        "level": "Critical",
+        "description": "A bug that causes system failure or data loss."
+      },
+      {
+        "level": "Major",
+        "description": "A bug that significantly affects functionality but does not halt operations."
+      },
+      {
+        "level": "Minor",
+        "description": "A bug that has a minor impact on functionality or user experience."
+      },
+      {
+        "level": "Trivial",
+        "description": "A cosmetic issue or typo."
+      }
+    ],
+    "reporting": {
+      "email": "support@moviewatcher.com",
+      "url": "https://bugtracker.movie-watcher.com",
+      "issueTemplate": {
+        "title": "[Bug]: ",
+        "description": "Describe the bug here...",
+        "stepsToReproduce": "List the steps to reproduce the bug...",
+        "expectedResult": "What you expected to happen...",
+        "actualResult": "What actually happened..."
+      }
+    },
+    "notifications": {
+      "enabled": true,
+      "methods": [
+        "email",
+        "slack"
+      ]
+    }
+  }
+}
